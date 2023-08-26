@@ -11,12 +11,21 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/aa.PNG',
+            image: 'assets/images/udi3.PNG',
             link: 'https://github.com/abhn/Mporter',
             title: 'UDI Scaneer',
             demo: 'https://mporter.co',
             technologies: ['Flutter', 'Flask', 'Python'],
             description: "UDI 바코드를 스캔하여 의약품들을 관리할 수 있는 앱",
+            categories: ['featured', 'webdev']
+        },
+        {
+            image: 'assets/images/ootd3.PNG',
+            link: 'https://github.com/abhn/Wall-E',
+            title: '오뭐입?',
+            demo: 'http://wall-e-jekyll.github.io/',
+            technologies: ['Flutter', 'FCM', 'kakao api', 'naver api'],
+            description: "체감온도, 습도, 일교차 등을 고려하여 오늘의 옷차림을 추천하는 앱",
             categories: ['featured', 'webdev']
         },
         {
