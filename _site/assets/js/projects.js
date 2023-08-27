@@ -12,7 +12,7 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/udi3.PNG',
-            link: 'https://github.com/abhn/Mporter',
+            link: 'https://github.com/KumohDaseong/2021_SwBank',
             title: 'UDI Scaneer',
             demo: 'https://mporter.co',
             technologies: ['Flutter', 'Flask', 'Python'],
@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/ootd3.PNG',
-            link: 'https://github.com/abhn/Wall-E',
+            link: 'https://github.com/NKLCBJoin/oh_OOTD',
             title: '오뭐입?',
             demo: 'http://wall-e-jekyll.github.io/',
             technologies: ['Flutter', 'FCM', 'kakao api', 'naver api'],
@@ -29,14 +29,24 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
-            image: 'assets/images/bb.PNG',
+            image: 'assets/images/pp.jpg',
             link: 'https://github.com/abhn/Wall-E',
-            title: '오뭐입?',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Flutter', 'FCM', 'kakao api', 'naver api'],
-            description: "체감온도, 습도, 일교차 등을 고려하여 오늘의 옷차림을 추천하는 앱",
+            title: 'NewRun',
+            demo: 'https://github.com/Boknami/Kotlin_newrun',
+            technologies: ['Kotlin', 'Social API', 'Retrofit'],
+            description: "경로 이미지에 StableDiffusion에 넣어 재미있는 이미지를 만드는 앱",
             categories: ['featured', 'webdev']
         },
+        //{
+        //    image: 'assets/images/pp.jpg',
+        //    link: 'https://github.com/abhn/Wall-E',
+        //    title: 'Beacon',
+        //    demo: 'http://wall-e-jekyll.github.io/',
+        //    technologies: ['Kotlin', 'FCM', 'ROOM', 'OkHttp', 'GPS'],
+        //    description: "체감온도, 습도, 일교차 등을 고려하여 오늘의 옷차림을 추천하는 앱",
+        //    categories: ['featured', 'webdev']
+        //}
+    
     ]
 
     let projects = [];
